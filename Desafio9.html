@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style media="screen" type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 {
+            background-color: lightgrey;
+            padding: 1rem;
+            float: left;
+            width: 20%;
+        }
+
+        .title {
+            ;
+            background-color: black;
+            color: white;
+            padding: 1rem;
+        }
+
+        .box2 {
+            float: left;
+            padding: 1rem;
+            background-color: white;
+            width: 50%;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            color: blue;
+        }
+
+        li::before {
+            content: "•";
+            color: black;
+            letter-spacing: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 0.2rem;
+            background-color: gray;
+            color: white;
+            clear: both;
+        }
+
+        main {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Título de página</h1>
+        </div>
+    </header>
+    <section class="main">
+        <div class="box1">
+            <h2>Menú</h2>
+            <ul>
+                <li>Item-1</li>
+                <li>Item-2</li>
+                <li>Item-3</li>
+                <li>Item-4</li>
+                <li>Item-5</li>
+            </ul>
+        </div>
+        <div class="box2">
+            <h2>Subtítulo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, distinctio quidem. Animi, fuga illum
+                repudiandae aut doloremque unde tempora quos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, veritatis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, distinctio quidem. Animi, fuga illum
+                repudiandae aut doloremque unde tempora quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, harum?</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <div>
+            <p>©Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+
+</html>
